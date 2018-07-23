@@ -11,7 +11,7 @@ public class ItemGenerator : MonoBehaviour {
     int ratio = 2;
     float speed = -0.03f;
 
-    public void SetParamater(float span,float speed,int ratio)
+    public void SetParameter(float span,float speed,int ratio)
     {
         this.span = span;
         this.speed = speed;
@@ -40,5 +40,5 @@ public class ItemGenerator : MonoBehaviour {
 
             item.GetComponent<ItemController>().dropSpeed = this.speed;
         }
-	}
+    }
 }
